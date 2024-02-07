@@ -13,8 +13,6 @@ jobs:
       max-parallel: 1
       matrix:
         include:
-          - source: index.html
-            destination: index.html
           - source: 360-captions/index.html
             destination: 360-captions/index.html
     steps:
